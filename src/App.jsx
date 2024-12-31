@@ -9,9 +9,9 @@ function App() {
 <div className="bg-[rgba(9,95,89,1)] sm:h-[80px] flex justify-between items-center text-center">
   <h1 className="font-montserrat text-3xl font-extrabold leading-[42.67px] text-left underline-from-font decoration-none text-white ">SHEY</h1>
   <div className="flex text-white font-montserrat sm:text-[20px] gap-4">
-<h3>Home</h3>
-<h3>Services</h3>
-<h3>Contact us</h3>
+<a href="">Home</a>
+<a href="">Services</a>
+<a href="">Contact us</a>
 
 
   </div>
@@ -35,11 +35,17 @@ function App() {
 <div className="w-[246px] top-[474px]  h-[1px] border border-black"></div>  
 </div>
 <div className=" sm:mt-4 flex justify-center gap-16 px-">
+<a href="" >
 <img  src="./images/image 1.png"/>
+</a>
+<a href="">
 <img  src="./images/image 2.png"/>
+</a>
 </div>
-<div className="flex justify-center text-center">
+<div className="flex justify-center text-center">ü
+<a href="">
 <p className="sm:mt-8 sm:w-[518px] sm:h-[25px] font-montserrat text-[rgba(9,95,89,0.75)] text-lg font-semibold leading-[24.38px] text-center ">Not yet registered , Click here to sign up</p>
+</a>
 
 </div>
 </div>
