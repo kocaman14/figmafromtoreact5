@@ -23,10 +23,10 @@ function App() {
 <h1 className="font-montserrat sm:text-[70px] font-semibold leading-[85.33px] text-left underline-from-font decoration-none text-[rgba(9,95,89,0.84)]
 ">LOGIN</h1>
 <div>
- <input className=" sm:mt-4  w-[461px]  sm:w-[461px] sm:h-[52px] border-[1px] border-[rgba(0,0,0,0.31)] rounded-[10px]"></input> 
+ <input placeholder="Username" className=" sm:mt-4  w-[461px]  sm:w-[461px] sm:h-[52px] border-[1px] border-[rgba(0,0,0,0.31)] rounded-[10px]"></input> 
 </div>
 <div>
- <input className="w-full sm:mt-4 sm:w-[461px] sm:h-[52px] border-[1px] border-[rgba(0,0,0,0.31)] rounded-[10px]"></input> 
+ <input placeholder="Password" className="w-full sm:mt-4 sm:w-[461px] sm:h-[52px] border-[1px] border-[rgba(0,0,0,0.31)] rounded-[10px]"></input> 
 </div>
 <button className="w-full sm:mt-4 sm:w-[222px] h-[54px] bg-[rgba(9,95,89,1)] font-montserrat font-extrabold text-2xl rounded-lg">LOGIN</button>
 <div className=" sm:mt-4 flex justify-between items-center">
